@@ -1,0 +1,3 @@
+# Driver artwork required
+Supply your own PNG, 1024 x 559 pixels. The prototype mapping expects the wheel centered around (512,230), hands above y=245, left arm below y=245 at x=0..350 and right arm at x=674..1024. Arm segments extend toward shoulder anchors. The gray background near RGB (114,130,143) is removed at load time with tolerance; transparency is also supported. See src/helpers.gml for exact mapping.
+The reference image is excluded because public redistribution permission is unconfirmed. Do not add it to a public repository without permission. A replacement will require visual testing in VR.
